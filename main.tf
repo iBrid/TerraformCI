@@ -31,8 +31,8 @@ provider "azurerm" {
   features {}
   /*client_id                  = var.client_id
   client_secret              = var.client_secret
-  tenant_id                  = var.tenant_id
-  subscription_id            = var.subscription_id */
+  tenant_id                  = var.tenant_id*/
+  subscription_id            = "/subscriptions/5822ccc3-d8c7-4df7-9bcd-11dfde97ab0b"
   skip_provider_registration = true
 }
 
